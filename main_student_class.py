@@ -10,8 +10,8 @@ print(student1.get_subject())
 print(student2.get_subject())
 
 # 	set a new subject name for each of the above created objects
-print(student1.set_subject("Hadoop"))
-print(student2.set_subject("Machine Learning"))
+student1.set_subject("Hadoop")
+student2.set_subject("Machine Learning")
 
 # 	display subject names again after updating for each of the above created objects
 print(student1.get_subject())
